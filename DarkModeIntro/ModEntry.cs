@@ -74,8 +74,8 @@ namespace DarkModeIntro
 
                     editor.PatchImage(
                         source: patchTexture,
-                        sourceArea: new Rectangle(0, 306, 400, 138),  // pull from same region in your full-size PNG
-                        targetArea: new Rectangle(0, 306, 400, 138),  // paste into same region in game texture
+                        sourceArea: new Rectangle(0, 306, 400, 138),
+                        targetArea: new Rectangle(0, 306, 400, 138),
                         patchMode: PatchMode.Replace
                     );
                 });
