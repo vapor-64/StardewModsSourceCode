@@ -25,7 +25,7 @@ namespace DarkModeIntro
                 Monitor.Log("Failed to find TitleMenu timer fields - mod will not work.", LogLevel.Error);
                 return;
             }
-
+            helper.Events.Content.AssetRequested += OnAssetRequested;
             helper.Events.GameLoop.UpdateTicked += OnUpdateTicked;
         }
 
@@ -60,6 +60,25 @@ namespace DarkModeIntro
             {
                 Game1.staminaRect = _originalStaminaRect;
                 _originalStaminaRect = null;
+            }
+        }
+        
+        private void OnAssetRequested(object sender, AssetRequestedEventArgs e)
+        {
+            if (e.NameWithoutLocale.IsEquivalentTo("Minigames/TitleButtons"))
+            {
+                e.Edit(asset =>
+                {
+                    var editor = asset.AsImage();
+                    var patchTexture = Helper.ModContent.Load<Texture2D>("assets/TitleButtons.png");
+
+                    editor.PatchImage(
+                        source: patchTexture,
+                        sourceArea: new Rectangle(0, 306, 400, 138),  // pull from same region in your full-size PNG
+                        targetArea: new Rectangle(0, 306, 400, 138),  // paste into same region in game texture
+                        patchMode: PatchMode.Replace
+                    );
+                });
             }
         }
     }
