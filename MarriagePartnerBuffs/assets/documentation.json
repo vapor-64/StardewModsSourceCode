@@ -1,0 +1,294 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vapor64/GMDF/master/documentation.schema.json",
+  "format": 1,
+  "modName": "Marriage Partner Buffs",
+  "pages": [
+    {
+      "name": "Overview",
+      "headerImage": {
+        "texture": "assets/header.png"
+      },
+      "entries": [
+        {
+          "type": "sectionTitle",
+          "text": "Overview",
+          "fontSize": 24
+        },
+        {
+          "type": "paragraph",
+          "text": "This simple mod grants the player specific permanent buffs based on their marriage partner.",
+          "fontSize": 22
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "sectionTitle",
+          "text": "Buffs",
+          "fontSize": 24
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Abigail:\nPermanent +1 attack buff",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/abigail.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Emily:\nAll gems sell for +50%",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/emily.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Haley:\n+5% chance harvested crops gain silver quality\n+5% chance for gold quality",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/haley.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Leah:\n+3 Wood whenever you fell a tree",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/leah.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Maru:\nFarm machines work 5% faster",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/maru.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Penny:\n+40% XP gained across all skills",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/penny.png",
+              "scale": 0.25
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Alex:\nMax Energy +10%",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/alex.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Elliott:\n+20% chance of a treasure chest while fishing",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/elliott.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Harvey:\nNo item or gold loss when knocked out in the mines",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/harvey.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Sam:\n+1 Speed while in Pelican Town",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/sam.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Sebastian:\n+1 Speed and +1 Luck after 10 PM",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/sebastian.png",
+              "scale": 0.7
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "Shane:\nEgg-related items sell for +100%",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "image",
+              "align": "right",
+              "texture": "assets/shane.png",
+              "scale": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FAQs",
+      "entries": [
+        {
+          "type": "paragraph",
+          "text": "Q. Does this mod take affect when adding it to a save with a spouse already?\nA. Yes\n\nQ. Does divorcing the spouse still let me keep the buffs?\nA. No\n\nQ. My favorite spouse's buff is so underpowered :(\nA. Hop on the mod page and start a fight, if you convince me we can change the buffs."
+        }
+      ]
+    }
+  ]
+}
