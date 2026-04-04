@@ -1,0 +1,13 @@
+{
+    "Texture": "LooseSprites/Cursors",
+    "Sprites": {
+        "Plus": {
+            "SourceRect": "184, 345, 7, 8",
+            "Scale": 4
+        },
+        "Minus": {
+            "SourceRect": "177, 345, 7, 8",
+            "Scale": 4
+        }
+    }
+}

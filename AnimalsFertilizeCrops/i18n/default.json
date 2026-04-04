@@ -1,0 +1,33 @@
+{
+  "mod-name": "Animals Fertilize Crops",
+
+  "overview.how-it-works.title": "How It Works",
+  "overview.how-it-works.body":  "Animals walking on your farm have a chance each second to fertilize the soil tile they are standing on and the tiles immediately surrounding them. The fertilizer tier depends on the animal type, and higher friendship increases the chance.",
+
+  "overview.tiers.title":   "Fertilizer Tiers",
+  "overview.tiers.basic":   "Basic Fertilizer",
+  "overview.tiers.basic-animals": "Chickens, Ducks",
+  "overview.tiers.quality": "Quality Fertilizer",
+  "overview.tiers.quality-animals": "Cows, Goats",
+  "overview.tiers.deluxe": "Deluxe Fertilizer",
+  "overview.tiers.deluxe-animals": "Sheep, Pigs, Rabbits, Ostriches, Dinosaurs",
+
+  "overview.friendship.title": "Friendship Bonus",
+  "overview.friendship.body":  "Each animal's friendship (0-1000) adds a small bonus to its fertilize chance. At maximum friendship (1000) this bonus is +2.5%, on top of the base chance.",
+
+  "faq.page-name": "FAQs",
+  "faq.q1.question": "1. What happens if a lower tier animal like chicken(basic fertilizer) walks over a tile already fertilized with deluxe fertilizer? Will the fertilizer quality be downgraded?",
+  "faq.q1.answer":  "No. The fertilizer quality doesn't downgrade. The mod is coded to always cause an increase in quality. No effect is triggered when there's a possibility of a downgrade",
+  "faq.q2.question": "2. How can I disable this mod effect?",
+  "faq.q2.answer":  "You can disable the mod by clicking the disable option in the Generic Mod Configuration Menu",
+
+  "config.page-name": "Config",
+  "config.settings.title": "Settings",
+  "config.settings.body": "These settings can be changed in-game via Generic Mod Config Menu, or by editing config.json in the mod folder.",
+
+  "config.settings.enabled-key": "Enable Mod",
+  "config.settings.enabled-desc": "Toggles the entire mod on or off. When disabled, animals will no longer fertilize any tiles and no sparkle effects will appear. The mod remains loaded so you can re-enable it at any time without restarting the game. Default: enabled.",
+
+  "config.settings.chance-key": "Base Fertilize Chance",
+  "config.settings.chance-desc": "Controls how likely an animal is to fertilize the tile it is standing on each second. A higher value means animals fertilize more frequently. Friendship with the animal adds a small bonus on top of this, up to +2.5% at maximum friendship (1000). Default: 2.5% per second."
+}

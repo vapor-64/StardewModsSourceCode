@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vapor64/GMDF/master/documentation.schema.json",
+  "format": 1,
+  "modName": "{{i18n:mod-name}}",
+  "pages": [
+    {
+      "name": "{{i18n:overview.how-it-works.title}}",
+      "headerImage": {
+        "texture": "assets/docheader.png"
+      },
+      "entries": [
+        {
+          "type": "divider",
+          "style": "iconCentered"
+        },
+        {
+          "type": "sectionTitle",
+          "text": "{{i18n:overview.how-it-works.title}}",
+          "fontSize": 28
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "paragraph",
+              "text": "{{i18n:overview.how-it-works.body}}",
+              "fontSize": 20
+            }
+          ],
+          "right": [
+            {
+              "type": "gif",
+              "align": "center",
+              "texture": "assets/fertilizegif.png",
+              "scale": 1,
+              "frameCount": 106,
+              "frameDuration": 0.07,
+              "columns": 10,
+              "rows": 11
+            }
+          ],
+          "leftFraction": 0.8
+        },
+        {
+          "type": "divider",
+          "style": "dotted"
+        },
+        {
+          "type": "row",
+          "left": [
+            {
+              "type": "sectionTitle",
+              "text": "{{i18n:overview.tiers.title}}",
+              "fontSize": 28
+            },
+            {
+              "type": "keyValue",
+              "fontSize": 20,
+              "key": "{{i18n:overview.tiers.basic}}",
+              "value": "{{i18n:overview.tiers.basic-animals}}"
+            },
+            {
+              "type": "keyValue",
+              "fontSize": 20,
+              "key": "{{i18n:overview.tiers.quality}}",
+              "value": "{{i18n:overview.tiers.quality-animals}}"
+            },
+            {
+              "type": "keyValue",
+              "fontSize": 20,
+              "key": "{{i18n:overview.tiers.deluxe}}",
+              "value": "{{i18n:overview.tiers.deluxe-animals}}"
+            }
+          ],
+          "right": [
+            {
+              "type": "sectionTitle",
+              "text": "{{i18n:overview.friendship.title}}",
+              "fontSize": 28
+            },
+            {
+              "type": "paragraph",
+              "text": "{{i18n:overview.friendship.body}}",
+              "fontSize": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{{i18n:faq.page-name}}",
+      "entries": [
+        {
+          "type": "paragraph",
+          "text": "{{i18n:faq.q1.question}}\n{{i18n:faq.q1.answer}}",
+          "fontSize": 20
+        },
+        {
+          "type": "divider",
+          "style": "dotted"
+        },
+        {
+          "type": "paragraph",
+          "text": "{{i18n:faq.q2.question}}\n{{i18n:faq.q2.answer}}",
+          "fontSize": 20
+        },
+        {
+          "type": "divider",
+          "style": "dotted"
+        }
+      ]
+    },
+    {
+      "name": "{{i18n:config.page-name}}",
+      "entries": [
+        {
+          "type": "divider",
+          "style": "iconCentered"
+        },
+        {
+          "type": "sectionTitle",
+          "text": "{{i18n:config.settings.title}}",
+          "fontSize": 28
+        },
+        {
+          "type": "paragraph",
+          "text": "{{i18n:config.settings.body}}",
+          "fontSize": 20
+        },
+        {
+          "type": "divider",
+          "style": "dotted"
+        },
+        {
+          "type": "sectionTitle",
+          "text": "{{i18n:config.settings.enabled-key}}",
+          "fontSize": 26
+        },
+        {
+          "type": "paragraph",
+          "text": "{{i18n:config.settings.enabled-desc}}",
+          "fontSize": 20
+        },
+        {
+          "type": "spacer",
+          "height": 8
+        },
+        {
+          "type": "sectionTitle",
+          "text": "{{i18n:config.settings.chance-key}}",
+          "fontSize": 26
+        },
+        {
+          "type": "paragraph",
+          "text": "{{i18n:config.settings.chance-desc}}",
+          "fontSize": 20
+        }
+      ]
+    }
+  ]
+}

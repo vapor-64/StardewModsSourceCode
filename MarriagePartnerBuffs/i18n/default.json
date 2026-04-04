@@ -1,0 +1,25 @@
+{
+  "buff.alex.description": "Max Energy +10%",
+
+  "buff.elliott.description": "+20% chance of a treasure chest while fishing",
+
+  "buff.harvey.description": "No item or gold loss when knocked out in the mines",
+
+  "buff.shane.description": "Egg-related items sell for +100%",
+
+  "buff.abigail.description": "+1 Attack",
+
+  "buff.emily.description": "All gems sell for +50%",
+
+  "buff.haley.description": "+5% chance harvested crops gain silver quality, +5% chance for gold quality",
+
+  "buff.leah.description": "+3 Wood whenever you fell a tree",
+  
+  "buff.maru.description": "Farm machines work 5% faster",
+  
+  "buff.penny.description": "+40% XP gained across all skills",
+  
+  "buff.sam.description": "+1 Speed while in Pelican Town",
+  
+  "buff.sebastian.description": "+1 Speed and +1 Luck after 10 PM"
+}

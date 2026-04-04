@@ -1,0 +1,33 @@
+{
+  "mod-name": "Los Animales Fertilizan los Cultivos",
+
+  "overview.how-it-works.title": "Como Funciona",
+  "overview.how-it-works.body":  "Los animales que caminan por tu granja tienen una probabilidad cada segundo de fertilizar el suelo en el que se encuentran y los suelos inmediatamente adyacentes. El tipo de fertilizante depende del animal, y una mayor amistad aumenta la probabilidad.",
+
+  "overview.tiers.title":          "Niveles de Fertilizante",
+  "overview.tiers.basic":          "Fertilizante Basico",
+  "overview.tiers.basic-animals":  "Gallinas, Patos",
+  "overview.tiers.quality":        "Fertilizante de Calidad",
+  "overview.tiers.quality-animals":"Vacas, Cabras",
+  "overview.tiers.deluxe":         "Fertilizante Deluxe",
+  "overview.tiers.deluxe-animals": "Ovejas, Cerdos, Conejos, Avestruces, Dinosaurios",
+
+  "overview.friendship.title": "Bonificacion por Amistad",
+  "overview.friendship.body":  "La amistad de cada animal (0-1000) añade una pequeña bonificacion a su probabilidad de fertilizar. Con amistad maxima (1000), esta bonificacion es de +2.5%, ademas de la probabilidad base.",
+
+  "faq.page-name": "Preguntas Frecuentes",
+  "faq.q1.question": "1. ¿Que pasa si un animal de nivel inferior como una gallina (fertilizante basico) pasa por un suelo ya fertilizado con fertilizante deluxe? ¿Se rebajara la calidad del fertilizante?",
+  "faq.q1.answer":  "No. La calidad del fertilizante no se rebaja. El mod esta programado para que siempre cause un aumento de calidad. No se produce ningun efecto cuando existe la posibilidad de una bajada de calidad.",
+  "faq.q2.question": "2. ¿Como puedo desactivar el efecto de este mod?",
+  "faq.q2.answer":  "Puedes desactivar el mod haciendo clic en la opcion de desactivar en el Menu de Configuracion de Mods Genericos.",
+
+  "config.page-name": "Configuracion",
+  "config.settings.title": "Ajustes",
+  "config.settings.body": "Estos ajustes se pueden cambiar en el juego a traves del Menu de Configuracion de Mods Genericos, o editando config.json en la carpeta del mod.",
+
+  "config.settings.enabled-key": "Activar Mod",
+  "config.settings.enabled-desc": "Activa o desactiva el mod por completo. Cuando esta desactivado, los animales ya no fertilizaran ningun suelo y no apareceran efectos de brillo. El mod permanece cargado para que puedas volver a activarlo en cualquier momento sin reiniciar el juego. Por defecto: activado.",
+
+  "config.settings.chance-key": "Probabilidad Base de Fertilizacion",
+  "config.settings.chance-desc": "Controla la probabilidad de que un animal fertilice el suelo en el que se encuentra cada segundo. Un valor mayor significa que los animales fertilizan con mas frecuencia. La amistad con el animal añade una pequeña bonificacion adicional, hasta +2.5% con amistad maxima (1000). Por defecto: 2.5% por segundo."
+}
